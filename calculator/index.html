@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<title>Calculator</title>
+		<link rel="stylesheet" type="text/css" href="css\style.css">
+	</head>
+	
+	
+	
+	<body>
+
+
+	<table border=0>
+			
+			
+	<tr>
+		<td><input type="button" value="C" id="butclear" class="button" onclick="rst()">
+		<td colspan=3><div id="box" class="box">0</div>
+	</tr>
+			
+	<tr>
+		<td class="row">	<input type="button" value="1" id="but1" class="button" onclick="digit(1)">
+		<td class="row">	<input type="button" value="2" id="but2" class="button" onclick="digit(2)">
+		<td class="row">	<input type="button" value="3" id="but3" class="button" onclick="digit(3)">
+		<td class="row">	<input type="button" value="+" id="butadd" class="button" onclick="add()">
+	</tr>
+	
+	<tr>
+		<td class="row">	<input type="button" value="4" id="but4" class="button" onclick="digit(4)">
+		<td class="row">	<input type="button" value="5" id="but5" class="button" onclick="digit(5)">
+		<td class="row">	<input type="button" value="6" id="but6" class="button" onclick="digit(6)">
+		<td class="row">	<input type="button" value="-" id="butsub" class="button" onclick="subs()">
+	</tr>
+	
+	<tr>
+		<td class="row">	<input type="button" value="7" id="but7" class="button" onclick="digit(7)">
+		<td class="row">	<input type="button" value="8" id="but8" class="button" onclick="digit(8)">
+		<td class="row">	<input type="button" value="9" id="but9" class="button" onclick="digit(9)">
+		<td class="row">	<input type="button" value="*" id="butmul" class="button" onclick="multi()">
+	</tr>
+	
+	<tr>
+		<td class="row">	<input type="button" value="." id="butdeci" class="button" onclick="deci()">
+		<td class="row">	<input type="button" value="0" id="but0" class="button" onclick="zero()">
+		<td class="row">	<input type="button" value="=" id="butrest" class="button" onclick="eqlto()">
+		<td class="row">	<input type="button" value="/" id="butdiv" class="button" onclick="divd()">
+	</tr>
+	
+	<tr>
+		<td colspan=4>&nbsp;
+	</tr>
+	
+	</table>
+			<script src="javascript\script.js"></script>
+
+	
+</body>
+
+</html>	
+			

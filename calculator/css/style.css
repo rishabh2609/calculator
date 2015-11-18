@@ -1,0 +1,30 @@
+		.row{
+				background:grey;
+				height:2cm;
+				text-align:center;
+			}
+			.button{
+				background:rgba(0,0,0,0);
+				color:white;
+				font-size:1cm;
+				height:2cm;
+				width:2cm;
+				border-radius:100%;
+				border-width:0;
+				transition:all 0.4s ease;
+			}
+			.button:hover{
+				background:rgb(200,200,200);
+			}
+			.box{
+				height:2cm;
+				text-align:right;
+				font-size:1.5cm;
+				font-family:Calibri;
+				background:white;
+			}
+			
+			table{
+				background:grey;
+				height:12cm;
+			}
